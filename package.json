@@ -1,12 +1,21 @@
 {
   "name": "restapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r esm server.js",
-    "start": "node -r esm server.js"
+    "start": "node server.js"
   },
+  "homepage": "https://github.com/Kamala864/RestApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "esc": "0.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kamala864/RestApi.git"
@@ -16,14 +25,5 @@
   "bugs": {
     "url": "https://github.com/Kamala864/RestApi/issues"
   },
-  "homepage": "https://github.com/Kamala864/RestApi#readme",
-  "dependencies": {
-    "dotenv": "^14.2.0",
-    "esc": "0.0.3",
-    "esm": "^3.2.25",
-    "express": "^4.17.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "description": ""
 }
